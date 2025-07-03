@@ -1,0 +1,6 @@
+patient_info,src_ip,dst_ip,protocol,pkt_size,duration,flag_syn,flag_ack,label
+Patient_001,10.0.0.1,192.168.1.1,TCP,120,0.002,1,0,normal
+Patient_002,10.0.0.2,192.168.1.5,UDP,80,0.001,0,1,attack
+Patient_003,10.0.0.3,192.168.1.10,TCP,150,0.003,1,1,normal
+Patient_004,10.0.0.4,192.168.1.15,TCP,200,0.005,1,0,attack
+Patient_005,10.0.0.5,192.168.1.20,UDP,90,0.0015,0,0,normal
